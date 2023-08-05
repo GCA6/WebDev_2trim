@@ -24,10 +24,10 @@
             </ul>
         </nav>
         <audio autoplay loop>
-        <source src="barbie_theme.mp3" type="audio/mpeg">
+        <source src="media/barbie_theme.mp3" type="audio/mpeg">
         Seu navegador não suporta a reprodução de áudio.
     </audio>
-    <!-- Caixa de aviso -->
+    
     <div class="alert-box">
         <p>Para uma experiência completa, acesse as configurações <br>
             do site e permita a reprodução de áudios.
@@ -35,7 +35,7 @@
         <button class="close-button" onclick="hideAlertBox()">Fechar</button>
     </div>
 
-    <!-- Script para ocultar a caixa de aviso -->
+    
     <script>
         function hideAlertBox() {
             var alertBox = document.querySelector('.alert-box');
