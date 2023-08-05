@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #120606;
     text-align: center;
     padding: 20px;
 }
@@ -126,3 +126,4 @@ header::after {
     border-radius: 4px;
     margin-top: 10px;
 }
+
