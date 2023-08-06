@@ -22,7 +22,7 @@
 </head>
 <body>
     <h1>Questionário</h1>
-    <p>Clique em "Começar" para iniciar o questionário.</p>
+    <p>Clique no botão abaixo para iniciar o questionário. <br>Boa sorte!</p>
     <a href="questao3p1.php"><button class = "close-button">Começar</button></a>
 </body>
 </html>

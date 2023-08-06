@@ -30,7 +30,7 @@
         <label><input type="radio" name="tipo_elemento" value="caixa-selecao" <?php echo isset($_POST['tipo_elemento']) && $_POST['tipo_elemento'] === 'caixa-selecao' ? 'checked' : ''; ?>>Caixa de seleção</label><br>
         <label><input type="radio" name="tipo_elemento" value="faixa" <?php echo isset($_POST['tipo_elemento']) && $_POST['tipo_elemento'] === 'faixa' ? 'checked' : ''; ?>>Faixa</label><br>
 
-        <button type="submit">Gerar Exemplos</button>
+        <button class = "close-button" type="submit">Gerar Exemplos</button>
         </fieldset>
     </form>
     
