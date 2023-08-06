@@ -75,6 +75,8 @@
         echo "</div>";
     }
     ?>
+    <br>
+     <a href="index.php"><button class = close-button>Página Inicial</button></a>   
     </main>
 
     <footer>
