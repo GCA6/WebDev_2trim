@@ -1,0 +1,68 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.imc-muito-grave {
+    background-color: #00008B; /* Azul Escuro */
+    color: #fff;
+}
+
+.imc-baixo-grave {
+    background-color: #4169E1; /* Azul Médio */
+    color: #fff;
+}
+
+.imc-baixo {
+    background-color: #1E90FF; /* Azul */
+    color: #fff;
+}
+
+.imc-ideal {
+    background-color: #66cc66; /* Verde Claro */
+}
+
+.imc-sobrepeso {
+    background-color: #ffcc66; /* Amarelo Claro */
+}
+
+.imc-obesidade-i {
+    background-color: #ff3300; /* Vermelho */
+    color: #fff;
+}
+
+.imc-obesidade-ii {
+    background-color: #CC0000; /* Vermelho Escuro */
+    color: #fff;
+}
+
+.imc-obesidade-iii {
+    background-color: #8B0000; /* Vermelho Muito Escuro */
+    color: #fff;
+}
+
+.detalhes {
+    visibility: hidden;
+    width: 150px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+}
+
+td:hover .detalhes {
+    visibility: visible;
+}
